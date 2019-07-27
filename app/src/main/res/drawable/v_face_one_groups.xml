@@ -1,0 +1,24 @@
+<vector android:height="24dp" android:viewportHeight="1052.3622"
+    android:viewportWidth="744.0945" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name= "face">
+    <path android:name="face_contour"
+        android:fillAlpha="0.93518521" android:fillColor="#00000000"
+        android:pathData="M600, 393.79A 220, 187.14 0,0 1,380 580.93 , 220 187.14,0 0,1 160,393.79 220,187.14 0,0 1,380 206.65,220 187.14,0 0,1 600,393.79Z"
+        android:strokeAlpha="3" android:strokeColor="#ff0000" android:strokeWidth="7"/>
+    </group>
+    <group android:name="eyes" android:pivotX="377" android:pivotY="705">
+    <path android:name="left_eye"
+        android:fillAlpha="0.93518521" android:fillColor="#00000000"
+        android:pathData="m317.14,346.65a31.43,34.29 0,0 1,-31.43 34.29,31.43 34.29,0 0,1 -31.43,-34.29 31.43,34.29 0,0 1,31.43 -34.29,31.43 34.29,0 0,1 31.43,34.29z"
+        android:strokeAlpha="1" android:strokeColor="#00ff00" android:strokeWidth="7"/>
+    <path android:name="right_eye"
+        android:fillAlpha="0.93518521" android:fillColor="#00000000"
+        android:pathData="m502.86,346.65a37.14,34.29 0,0 1,-37.14 34.29,37.14 34.29,0 0,1 -37.14,-34.29 37.14,34.29 0,0 1,37.14 -34.29,37.14 34.29,0 0,1 37.14,34.29z"
+        android:strokeAlpha="1" android:strokeColor="#0000ff" android:strokeWidth="7"/>
+    </group>
+    <group android:name="mouth" android:pivotX="377" android:pivotY="562">
+    <path android:fillAlpha="0.93518521" android:fillColor="#00000000"
+        android:pathData="m271.43,478.08 l222.86,0 0,25.71 -222.86,0z"
+        android:strokeAlpha="2" android:strokeColor="#aadd00" android:strokeWidth="7"/>
+    </group>
+</vector>

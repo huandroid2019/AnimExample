@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/unchecked_id"
+    android:state_checked="false"
+    android:drawable="@drawable/off_vector"
+    />
+    <item
+        android:id="@+id/checked_id"
+        android:state_checked="true"
+        android:drawable="@drawable/on_vector"
+        />
+    <transition
+        android:fromId="@+id/unchecked_id"
+        android:toId="@+id/checked_id"
+        android:drawable="@drawable/off_on_anim"/>
+    <transition
+        android:fromId="@+id/checked_id"
+        android:toId="@+id/unchecked_id"
+        android:drawable="@drawable/off_on_anim"
+        android:reversible="true"
+        />
+</animated-selector>
